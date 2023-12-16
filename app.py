@@ -97,7 +97,7 @@ def getLLMResponse(query, age_option, tasktype_option):
 
 #UI STARTS HERE
 
-st.set_page_config(page_title="Marketing Tool", page_icon='', layout='centered', initial_sidebar_state='collapsed')
+st.set_page_config(page_title="Marketing Tool", page_icon=':robot:', layout='centered', initial_sidebar_state='collapsed')
 
 st.header('Hey, how can I help you?')
 
