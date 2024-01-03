@@ -34,25 +34,21 @@ def getLLMResponse(query, age_option, tasktype_option):
             }
         ]
 
-        elif age_option == "Adult":
-             examples = [
-            {
-                "query": "What is a smartphone?",
-                "answer": "A smartphone is a sophisticated handheld electronic device that goes beyond mere communication. It serves as a multifunctional tool, seamlessly integrating features such as advanced computing, high-quality photography, internet browsing, and a myriad of applications for productivity and entertainment. Essentially, it's a portable powerhouse that connects you to the world while fitting in the palm of your hand."
-            },
+    elif age_option == "Adult":
+            examples = [
+        {
+            "query": "What is a smartphone?",
+            "answer": "A smartphone is a sophisticated handheld electronic device that goes beyond mere communication. It serves as a multifunctional tool, seamlessly integrating features such as advanced computing, high-quality photography, internet browsing, and a myriad of applications for productivity and entertainment. Essentially, it's a portable powerhouse that connects you to the world while fitting in the palm of your hand."
+        },     
+    ]
 
+    elif age_option == "Senior Citizen":
+        examples = [
+        {
             
-        ]
-
-         elif age_option == "Senior Citizen":
-             examples = [
-            {
-               
-                "query": "What is a cellphone?",
-                "answer": "A cellphone, dear friend, is a marvelous invention that allows you to make calls, send messages, and stay connected with your loved ones. It's like a tiny, portable telephone that you can carry in your pocket or purse. Some even have larger buttons and simpler menus to make it easier for you to use. Think of it as a modern version of the good old telephone, but with a touch of technology magic to keep you in touch with the world around you."
-            },
-
-
+            "query": "What is a cellphone?",
+            "answer": "A cellphone, dear friend, is a marvelous invention that allows you to make calls, send messages, and stay connected with your loved ones. It's like a tiny, portable telephone that you can carry in your pocket or purse. Some even have larger buttons and simpler menus to make it easier for you to use. Think of it as a modern version of the good old telephone, but with a touch of technology magic to keep you in touch with the world around you."
+        },
         ]
 
 
